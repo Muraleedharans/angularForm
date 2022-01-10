@@ -20,19 +20,19 @@ export class QuestionService {
       new TextboxQuestion({
         key: 'rollNumber',
         label: 'Roll Number',
+        order: 3
+      }),
+
+      new TextboxQuestion({
+        key: 'Class',
+        label: 'Class',
         order: 2
       }),
 
       new TextboxQuestion({
-        key: 'studentName',
-        label: 'Student Name',
-        order: 1
-      }),
-
-      new TextboxQuestion({
-        key: 'studentName',
-        label: 'Student Name',
-        order: 1
+        key: 'mark1',
+        label: 'Mark 1',
+        order: 4
       }),
     ];
 
